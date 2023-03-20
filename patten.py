@@ -8,4 +8,3 @@ for i in range(0,4):
             arr.reverse()
 for x in range(0,len(arr)):
     print(arr[x])
-    print("hello")

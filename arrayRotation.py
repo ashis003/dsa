@@ -1,4 +1,4 @@
-def aRotate(arr,d):
+def arrayRotate(arr,d):
     for i in range(0,d):
         temp=arr[0]
         for j in range(0,len(arr)-1):
@@ -9,5 +9,5 @@ def printArray(arr):
         print(arr[i],end=" ")
 arr=[1,2,3,4,5]
 d=2
-aRotate(arr,d)
+arrayRotate(arr,d)
 printArray(arr)
